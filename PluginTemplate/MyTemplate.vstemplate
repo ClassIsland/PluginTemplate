@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	<TemplateData>
+		<Name>ClassIsland Hello world 插件</Name>
+		<Description>一个能在启动时显示 Hello world 弹窗的 ClassIsland 插件模板。</Description>
+		<ProjectType>CSharp</ProjectType>
+		<LanguageTag>csharp</LanguageTag>
+		<PlatformTag>windows</PlatformTag>
+		<ProjectTypeTag>desktop</ProjectTypeTag>
+		<ProjectTypeTag>classisland</ProjectTypeTag>
+		<ProjectTypeTag>plugin</ProjectTypeTag>
+		<ProjectSubType>
+
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>MyPlugin</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<CreateInPlace>true</CreateInPlace>
+		<Icon>__TemplateIcon.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="PluginTemplate.csproj" File="PluginTemplate.csproj" ReplaceParameters="true">
+			<Folder Name="Properties" TargetFolderName="Properties">
+				<ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="manifest.yml">manifest.yml</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Plugin.cs">Plugin.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
+		</Project>
+	</TemplateContent>
+</VSTemplate>
