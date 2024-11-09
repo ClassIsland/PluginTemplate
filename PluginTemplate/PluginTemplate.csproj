@@ -10,12 +10,12 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<ClassIslandPluginSdkVersion>1.5.0.2</ClassIslandPluginSdkVersion>
+		<ClassIslandPluginSdkVersion>1.5.0.*</ClassIslandPluginSdkVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="ClassIsland.PluginSdk" Version="$(ClassIslandPluginSdkVersion)">
-			<ExcludeAssets>runtime</ExcludeAssets>
+			<ExcludeAssets>runtime; native</ExcludeAssets>
 		</PackageReference>
 	</ItemGroup>
 
