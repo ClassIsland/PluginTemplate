@@ -12,6 +12,6 @@ public class Plugin : PluginBase
 {
     public override void Initialize(HostBuilderContext context, IServiceCollection services)
     {
-        CommonDialog.ShowInfo("Hello world!");
+        CommonDialog.ShowInfo("Hello World!");
     }
 }

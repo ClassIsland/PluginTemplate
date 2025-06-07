@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
 	<TemplateData>
-		<Name>ClassIsland Hello world 插件</Name>
-		<Description>一个能在启动时显示 Hello world 弹窗的 ClassIsland 插件模板。</Description>
+		<Name>ClassIsland Hello World 插件</Name>
+		<Description>一个能在启动时显示 Hello World 弹窗的 ClassIsland 插件模板。</Description>
 		<ProjectType>CSharp</ProjectType>
 		<LanguageTag>csharp</LanguageTag>
 		<PlatformTag>windows</PlatformTag>
 		<ProjectTypeTag>desktop</ProjectTypeTag>
-		<ProjectTypeTag>classisland</ProjectTypeTag>
-		<ProjectTypeTag>plugin</ProjectTypeTag>
+		<ProjectTypeTag>ClassIsland</ProjectTypeTag>
+		<ProjectTypeTag>Plugin</ProjectTypeTag>
 		<ProjectSubType>
 
 		</ProjectSubType>
